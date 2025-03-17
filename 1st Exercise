@@ -1,0 +1,49 @@
+
+65986@LAPTOP-KHM3PPP4 MINGW64 /
+$ cd
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~
+$ cd Desktop/SEB56/Day1/FirstHomework/star-wars
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mkdir death-star
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ cd death-star
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/death-star
+$ touch darth-vader.txt princess-leia.txt storm-trooper.txt
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/death-star
+$ cd ..
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mkdir galaxy-far-far-away
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ cd galaxy-far-far-away
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away
+$ mkdir tatooine
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away
+$ cd tatooine
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ touch luke.txt ben-kenobi.txt
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ mkdir millenium-falcon
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ cd millenium-falcon
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine/millenium-falcon
+$ touch han-solo.txt chewbacca.txt
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine/millenium-falcon
+$ cd ../..
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away
+$ cp ../death-star/storm-trooper.txt tatooine/
+
