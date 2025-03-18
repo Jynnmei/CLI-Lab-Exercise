@@ -1,4 +1,4 @@
-
+Part I: mkdir and touch - set the scene
 65986@LAPTOP-KHM3PPP4 MINGW64 /
 $ cd
 
@@ -41,9 +41,120 @@ $ cd millenium-falcon
 65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine/millenium-falcon
 $ touch han-solo.txt chewbacca.txt
 
+Part II: cp - copy
 65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine/millenium-falcon
 $ cd ../..
 
 65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away
 $ cp ../death-star/storm-trooper.txt tatooine/
+
+
+Part III: mv - move
+cd tatooine/millenium-falcon/
+mv ../luke.txt ../millenium-falcon/
+mv ../ben-kenobi.txt ../millenium-falcon/
+mv ./millenium-falcon ../millenium-falcon
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine/millenium-falcon
+$ cd ..
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ mv ./millenium-falcon ../millenium-falcon
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ mv ../millenium-falcon ../../death-star/millenium-falcon/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ mv ../../death-star/princess-leia.txt ../../death-star/millenium-falcon/
+
+Part IV: mv - rename
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$  mv ../../death-star/millenium-falcon/ben-kenobi.txt ../../death-star/millenium-falcon/obi-wan.txt
+
+Part V: rm - remove
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ rm ../../death-star/millenium-falcon/obi-wan.txt
+
+Part VI: All together
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars/galaxy-far-far-away/tatooine
+$ cd ../../
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mkdir ./galaxy-far-far-away/yavin-4
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv ./death-star/millenium-falcon/ ./galaxy-far-far-away/yavin-4/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mkdir ./galaxy-far-far-away/yavin-4/x-wing
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv galaxy-far-far-away/yavin-4/millenium-falcon/princess-leia.txt galaxy-far-far-away/yavin-4/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv galaxy-far-far-away/yavin-4/millenium-falcon/luke.txt galaxy-far-far-away/yavin-4/x-wing/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv galaxy-far-far-away/yavin-4/millenium-falcon/ galaxy-far-far-away/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv galaxy-far-far-away/yavin-4/x-wing/ galaxy-far-far-away/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mkdir ./death-star/tie-fighter-1
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mkdir ./death-star/tie-fighter-2
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mkdir ./death-star/tie-fighter-3
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv ./death-star/darth-vader.txt ./death-star/tie-fighter-1
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ cp ./death-star/storm-trooper.txt ./death-star/tie-fighter-2
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ cp ./death-star/storm-trooper.txt ./death-star/tie-fighter-3
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv ./death-star/tie-fighter-1 ./galaxy-far-far-away/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv ./death-star/tie-fighter-2 ./galaxy-far-far-away/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv ./death-star/tie-fighter-3 ./galaxy-far-far-away/
+
+Part VII: rm -r
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ rm -r galaxy-far-far-away/tie-fighter-2
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ rm -r galaxy-far-far-away/tie-fighter-3
+
+Part VIII: May the Force be with you
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ touch ./galaxy-far-far-away/x-wing/the-force.txt
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ rm -r death-star/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv ./galaxy-far-far-away/x-wing/ ./galaxy-far-far-away/yavin-4/
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ mv ./galaxy-far-far-away/millenium-falcon/ ./galaxy-far-far-away/yavin-4/
+
+Part IX: Clean up
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework/star-wars
+$ cd ..
+
+65986@LAPTOP-KHM3PPP4 MINGW64 ~/Desktop/SEB56/Day1/FirstHomework
+$ rm -r star-wars/
+
+
+
+
 
